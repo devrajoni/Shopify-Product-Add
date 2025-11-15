@@ -110,8 +110,7 @@ Copy code
     }
   ],
   "images": [
-    { "src": "https://example.com/image1.jpg", "alt": "T-Shirt Red Small" },
-    { "src": "https://example.com/image2.jpg", "alt": "T-Shirt Blue Medium" }
+    { "src": "https://example.com/image1.jpg", "alt": "T-Shirt Red Small" }
   ]
 }
 Response Example
@@ -126,12 +125,7 @@ Copy code
     "images": [...]
   }
 }
-🧪 Testing
-A basic PHPUnit test is included for the endpoint:
 
-bash
-Copy code
-php artisan test
 📦 Code Structure
 App\Repositories – Repository Pattern implementation for Shopify API requests
 
